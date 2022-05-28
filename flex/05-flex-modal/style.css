@@ -15,11 +15,33 @@ body {
   justify-content: center;
 }
 
+header {
+ font-size: 32px;
+
+}
+
 .modal {
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 10px;
+  margin: 60px;
+  gap: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.middle {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 3;
+}
+
+.buttons {
+  display: flex;
+
 }
 
 .icon {
